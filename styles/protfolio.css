@@ -4,7 +4,7 @@
 }
 /* shared section */
 .section-title{
-    color: #181818);
+    color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -12,7 +12,7 @@
 }
 
 .section-description{
-    color: #757575);
+    color: #757575;
     text-align: center;
     font-size: 18px;
 }
@@ -20,6 +20,7 @@
 /* common font */
 body{
     font-family: 'Open Sans', sans-serif;
+
 }
 
 /* nav related style */
@@ -27,8 +28,9 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 0px 200px;
+   
 }
-/* primary */
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -39,7 +41,8 @@ nav{
      font-size: 20px;
      font-weight: 700;
      color: white;  
-     padding: 18px 35px; 
+     padding: 18px 35px;
+     margin-bottom: 200; 
     }
 
 
@@ -48,6 +51,7 @@ nav{
     font-size: 45px;
     font-weight: 800;
     padding-top: 55px;
+    font-weight: 900;
 }
 
 nav > ul{
@@ -63,6 +67,7 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+    
 }
 
 /* header related style */
@@ -71,7 +76,7 @@ nav a{
     background-image: url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 550px;
+
     
     
     
@@ -85,13 +90,17 @@ nav a{
 }
 .banner-content{
     max-width: 500px;
+    margin-bottom: 70px;
 }
 
-.banner .profilepic{
-    width: 500px;
-    
-    
+.profilepic{
+    padding-left: 100px;
+    margin: 0px;
+
+     
 }
+
+
 .banner-greeting{
     font-size: 45px;
     color: #474747;
